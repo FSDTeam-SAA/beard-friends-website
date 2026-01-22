@@ -3,7 +3,7 @@ import ContactUs from '../components/ContactUs'
 
 const page = () => {
   return (
-    <div className='bg-[#1C1C1E] h-screen pt-14'>
+    <div className='bg-[#1C1C1E] min-h-screen py-20'>
       <ContactUs/>
     </div>
   )
