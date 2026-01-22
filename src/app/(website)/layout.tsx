@@ -12,7 +12,7 @@ function layout({ children }: { children: React.ReactNode }) {
       <Navbar />
       <ReactQueryProvider>
       <div className="">{children}</div>
-         <Toaster />
+         <Toaster  position="top-right"/>
       </ReactQueryProvider>
       <Footer />
     </div>
