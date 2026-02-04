@@ -86,7 +86,7 @@ function ContributeInBeardContests() {
   // Prepare data in the shape ContestantCard expects
   const contestants = sortedParticipants.map((p, idx) => ({
     id: p._id,
-    name: p.user.name,
+    name: p?.user?.name,
     votes: p.votes,
     imageUrl: p.photo.url, // using entry photo, not avatar
     rank: idx < 3 ? `${idx + 1}${idx === 0 ? "st" : idx === 1 ? "nd" : "rd"}` : undefined,
