@@ -236,7 +236,7 @@ export default function TopContestantSection() {
             <ContestantCard
               key={p._id}
               id={p._id}
-              name={p.user.name}
+              name={p?.user?.name}
               imageUrl={p.photo?.url ?? '/placeholder-contestant.jpg'}
               votes={p.votes}
             />

@@ -327,7 +327,7 @@ export default function ContestVotingApp() {
               <ContestantCard
                 key={p._id}
                 id={p._id}
-                name={p.user.name}
+                name={p?.user?.name}
                 imageUrl={p.photo.url}
                 votes={p.votes}
                 // optional extras you can pass if your card supports them:

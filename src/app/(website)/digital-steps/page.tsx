@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
-import { ArrowRight,  } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
 
 function DigitalSteps() {
   return (
@@ -15,7 +13,7 @@ function DigitalSteps() {
               Digital Steps
             </h2>
 
-            <p className="text-gray-300 text-base leading-relaxed pb-5">
+            <p className="text-gray-300 text-base leading-relaxed">
               Attention all beard enthusiasts! We are excited to announce the
               annual Beard Contest happening Right Now. Whether you have a full
               beard, a stylish mustache, or a unique facial hair design, this
@@ -25,12 +23,8 @@ function DigitalSteps() {
               enter, including full beard, partial beard, mustache, and
               freestyle.
             </p>
-            <Link href="/digital-steps">
-            <button className="group flex items-center gap-2 text-white font-semibold text-lg hover:text-[#BA5EEF] transition-colors">
-              Read More
-              <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-            </button>
-            </Link>
+
+        
           </div>
 
           {/* Image Section */}

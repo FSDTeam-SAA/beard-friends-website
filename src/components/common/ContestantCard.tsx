@@ -35,7 +35,7 @@ export default function ContestantCard({
 
   return (
     <div
-      className={`group relative overflow-hidden rounded-2xl bg-gradient-to-b from-transparent to-black/80 flex flex-col !h-[392px] justify-end ${cardHeight} w-full`}
+      className={`group relative  overflow-hidden rounded-[12px] bg-gradient-to-b from-transparent to-black/80 flex flex-col !h-[392px] justify-end ${cardHeight} w-full`}
     >
       {/* Image Background */}
       <Image
@@ -43,21 +43,21 @@ export default function ContestantCard({
         alt={name}
         fill
         className="object-cover transition-transform duration-500 group-hover:scale-105"
-        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         priority={featured}
       />
 
       {/* Bottom Info Bar */}
-      <div className="relative flex items-center justify-between gap-4 p-4 sm:p-6 bg-[#2C2C2E] backdrop-blur-sm">
+      <div className="relative flex items-center  justify-between gap-4 p-4 sm:p-6 bg-[#2C2C2E]">
         <div className="flex items-center gap-3 sm:gap-4">
           {/* Logo / Badge */}
-          <div className="h-10 w-10 sm:h-11 sm:w-11 shrink-0">
+          <div className="h-10 w-10 sm:h-11 sm:w-11 ">
             <Image
               src="/images/logo3.png"
               alt="Contest badge"
               width={100}
               height={100}
-              className="h-full w-full rounded-full object-cover "
+              className="h-full w-full object-cover "
             />
           </div>
 

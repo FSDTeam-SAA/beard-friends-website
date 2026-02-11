@@ -31,7 +31,7 @@ function Navbar() {
               alt="Logo"
               width={100}
               height={100}
-              className="w-16 sm:w-[83px] h-16 sm:h-[83px] object-contain"
+              className="w-16 sm:w-[83px] h-12 sm:h-[65px] object-contain"
               priority
             />
           </Link>
@@ -41,7 +41,7 @@ function Navbar() {
             <NavLink href="/about">About</NavLink>
             <NavLink href="/beard-contest">Beard Contest</NavLink>
             <NavLink href="/shops">Barber Shops</NavLink>
-            <NavLink href="/shop">Online Shop</NavLink>
+            {/* <NavLink href="/shop">Online Shop</NavLink> */}
             <NavLink href="/contact">Contact</NavLink>
           </div>
 
