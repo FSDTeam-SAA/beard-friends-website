@@ -48,11 +48,19 @@ function HomeHero() {
   ];
 
   return (
-    <div className="relative  bg-black overflow-hidden md:py-[150px]"
-     style={{
-          backgroundImage: "url('/images/herobgimage.png')",
-          backgroundSize: 'cover',
-        }}
+    <div   className="
+    relative bg-black overflow-hidden md:py-[150px]
+    bg-[url('/images/herobgimage.png')]
+    bg-cover
+    bg-center
+    lg:bg-[position:initial]
+  "
+    //  style={{
+    //       backgroundImage: "url('/images/herobgimage.png')",
+    //       backgroundSize: 'cover',
+    //       backgroundPosition: 'center',
+    //       backgroundRepeat: 'no-repeat',
+    //     }}
     >
       <div className="absolute inset-0 bg-black/70 sm:bg-black/80"></div>
       {/* Background Image */}

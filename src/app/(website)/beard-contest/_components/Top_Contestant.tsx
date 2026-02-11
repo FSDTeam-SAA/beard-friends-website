@@ -132,8 +132,8 @@ export default function TopContestantSection() {
               key={p._id}
               id={p._id}
               name={p?.user?.name}
-              imageUrl={p?.photo?.url ?? '/placeholder-contestant.jpg'}
-              votes={p?.votes}
+              imageUrl={p.photo?.url ?? '/placeholder-contestant.jpg'}
+              votes={p.votes}
             />
           ))
         )}

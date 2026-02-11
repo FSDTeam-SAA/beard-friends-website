@@ -105,11 +105,11 @@ function ContributeInBeardContests() {
     <div className="bg-[#1a1a1a] py-16 md:px-4">
       <div className="container mx-auto overflow-hidden md:overflow-visible">
         {/* Header */}
-        <div className="text-center mb-8">
+        <div className=" lg:text-center mb-8">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Contribute in Our Beard Contests
           </h2>
-          <p className="text-gray-300 text-sm md:text-xl  mx-auto leading-relaxed">
+          <p className="text-gray-300 text-base leading-relaxed ">
            Attention all beard enthusiasts! We are excited to announce the annual Beard Contest happening Right Now. Whether you have a full beard, a stylish mustache, or a unique facial hair design, this contest is for you! We invite all men who have put time and effort into growing and grooming their beards to come and showcase their impressive facial hair styles. There will be various categories to enter, including full beard, partial beard, mustache, and freestyle.
           </p>
         </div>

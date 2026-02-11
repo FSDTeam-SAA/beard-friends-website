@@ -1,7 +1,7 @@
 import React from "react";
 import HomeHero from "./components/HomeHero";
 import Barbershops from "./components/Barbershops";
-import OnlineShop from "./components/OnlineShop";
+// import OnlineShop from "./components/OnlineShop";
 import AboutOurCommunity from "./components/AboutOurCommunity";
 import ContributeInBeardContests from "./components/ContributeInBeardContests";
 import DigitalStaps from "./components/DigitalStaps";
@@ -13,13 +13,13 @@ function page() {
   return (
     <div>
       <HomeHero />
-      <Barbershops />
-      <OnlineShop />
       <AboutOurCommunity />
       <ContributeInBeardContests />
       <DigitalStaps />
-      <ContactUs />
+      <Barbershops />
+      {/* <OnlineShop /> */}
       <Download />
+      <ContactUs />
       <FAQ />
     </div>
   );

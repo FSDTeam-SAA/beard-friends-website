@@ -48,7 +48,7 @@ function FAQ() {
               <AccordionTrigger className="px-6 py-4 text-white hover:no-underline hover:bg-[#333333] transition-colors text-left">
                 <span className="font-medium text-base">{faq.question}</span>
               </AccordionTrigger>
-              <AccordionContent className="px-6 pb-4 pt-2 text-gray-400 text-sm leading-relaxed">
+              <AccordionContent className="px-6 pb-4 pt-2 text-base  text-gray-300 leading-relaxed">
                 {faq.answer}
               </AccordionContent>
             </AccordionItem>

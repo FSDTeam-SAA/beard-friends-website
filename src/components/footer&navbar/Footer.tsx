@@ -4,6 +4,7 @@ import React from "react"
 
 import { useState } from 'react'
 import Image from 'next/image'
+import Link from "next/link"
 
 export default function Footer() {
   const [email, setEmail] = useState('')
@@ -46,25 +47,21 @@ export default function Footer() {
             <h4 className="text-lg md:text-xl font-bold mb-6 text-white">Pages</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-[#BA5EEF] hover:text-purple-300 text-sm md:text-base transition">
+                <Link href="/about" className="text-[#BA5EEF] hover:text-purple-300 text-sm md:text-base transition">
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-[#BA5EEF] hover:text-purple-300 text-sm md:text-base transition">
+                <Link href="/beard-contest" className="text-[#BA5EEF] hover:text-purple-300 text-sm md:text-base transition">
                   Beard Contest
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-[#BA5EEF] hover:text-purple-300 text-sm md:text-base transition">
+                <Link href="/shops" className="text-[#BA5EEF] hover:text-purple-300 text-sm md:text-base transition">
                   Barbershops
-                </a>
+                </Link>
               </li>
-              <li>
-                <a href="#" className="text-[#BA5EEF] hover:text-purple-300 text-sm md:text-base transition">
-                  Online Shop
-                </a>
-              </li>
+           
               <li>
                 <a href="#" className="text-[#BA5EEF] hover:text-purple-300 text-sm md:text-base transition">
                   Contact Us
@@ -125,6 +122,14 @@ export default function Footer() {
                 className="w-full bg-gray-800 text-white px-4 py-3 rounded-lg placeholder-gray-500 text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
                 required
               />
+              <div>
+                  <p className="text-white text-xs md:text-[15px] font-bold text-center md:text-left">
+            By Subscribing to our news Letter your data will be processed according to our{' '}
+            <a href="#" className="text-[#BA5EEF] hover:text-purple-300 transition">
+              Privacy Policy
+            </a>
+          </p>
+              </div>
               <div className="flex justify-end">
               <button
                 type="submit"
@@ -139,12 +144,7 @@ export default function Footer() {
 
         {/* Bottom Section */}
         <div className="border-t border-gray-900 pt-8 md:pt-12 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-white text-xs md:text-base font-bold text-center md:text-left">
-            By Subscribing to our news Letter your data will be processed according to our{' '}
-            <a href="#" className="text-[#BA5EEF] hover:text-purple-300 transition">
-              Privacy Policy
-            </a>
-          </p>
+        
           <p className="text-gray-400 text-xs md:text-sm text-center md:text-right">
             All rights reserved 2023 © Bartfreunde
           </p>
