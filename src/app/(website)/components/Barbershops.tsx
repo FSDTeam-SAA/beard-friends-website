@@ -93,7 +93,7 @@ function Barbershops() {
   // ─── Main render ─────────────────────────────────────
   return (
     <div className="bg-[#1C1C1E] py-12 md:py-20 px-4">
-      <div className="container mx-auto max-w-7xl">
+      <div className="container mx-auto ">
         <h2 className="text-3xl md:text-5xl font-bold text-white text-center mb-10 md:mb-16 tracking-tight">
           Barbershops
         </h2>
@@ -128,7 +128,7 @@ function Barbershops() {
                     key={shop._id}
                     className="pl-4 basis-[85%] md:basis-1/2 lg:basis-1/3"
                   >
-                    <Card className="bg-[#2a2a2a] border-none overflow-hidden group cursor-pointer transition-all hover:ring-1 hover:ring-purple-500/50">
+                    <Card className="bg-[#2a2a2a] border-none overflow-hidden group cursor-pointer transition-all ">
                       <CardContent className="p-0">
                         <div className="relative h-64 md:h-80 overflow-hidden">
                           <Image
@@ -137,7 +137,7 @@ function Barbershops() {
                             alt={shop.shopName}
                             className="object-cover transition-transform duration-700 group-hover:scale-105"
                             sizes="(max-width: 768px) 85vw, (max-width: 1200px) 50vw, 33vw"
-                            unoptimized // ← helpful for cloudinary URLs
+                            unoptimized 
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-[#2a2a2a] via-transparent to-transparent" />
                         </div>
