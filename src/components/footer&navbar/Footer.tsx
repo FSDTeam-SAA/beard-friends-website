@@ -63,9 +63,9 @@ export default function Footer() {
               </li>
            
               <li>
-                <a href="#" className="text-[#BA5EEF] hover:text-purple-300 text-sm md:text-base transition">
+                <Link href="/contact" className="text-[#BA5EEF] hover:text-purple-300 text-sm md:text-base transition">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -75,14 +75,14 @@ export default function Footer() {
             <h4 className="text-lg md:text-xl font-bold mb-6 text-[#FFFFFF]">Legal</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-[#BA5EEF] hover:text-purple-300 text-sm md:text-base transition">
+                <Link href="/terms" className="text-[#BA5EEF] hover:text-purple-300 text-sm md:text-base transition">
                   Terms and Conditions
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-[#BA5EEF] hover:text-purple-300 text-sm md:text-base transition">
+                <Link href="/privacy-policy" className="text-[#BA5EEF] hover:text-purple-300 text-sm md:text-base transition">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#" className="text-[#BA5EEF] hover:text-purple-300 text-sm md:text-base transition">
@@ -125,9 +125,9 @@ export default function Footer() {
               <div>
                   <p className="text-white text-xs md:text-[15px] font-bold text-center md:text-left">
             By Subscribing to our news Letter your data will be processed according to our{' '}
-            <a href="#" className="text-[#BA5EEF] hover:text-purple-300 transition">
+            <Link href="/privacy-policy" className="text-[#BA5EEF] hover:text-purple-300 transition hover:underline">
               Privacy Policy
-            </a>
+            </Link>
           </p>
               </div>
               <div className="flex justify-end">
